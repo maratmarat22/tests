@@ -1,0 +1,63 @@
+### Общие файлы ###
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.nupkg
+*.swp
+*.pidb
+*.pdb
+*.ilk
+*.msi
+*.dll
+*.exe
+*.cache
+*.dotCover
+*.orig
+*.sln.iml
+
+### Rider ###
+.idea/
+*.sln.iml
+*.idea/
+*.DotSettings
+_ReSharper.*
+*.sln.dotnet.user
+
+### VS Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+### NuGet ###
+packages/
+*.nupkg
+NuGet.exe
+NuGet.Config
+
+### Тесты и покрытие кода ###
+TestResults/
+coverage/
+*.coverage
+*.coverlet
+
+### Временные файлы ###
+temp/
+tmp/
+*.tmp
+*.TMP
+
+### Локальные настройки ###
+appsettings.Local.json
+appsettings.Development.json
+secrets.json
+launchSettings.json
+
+### Docker ###
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.*.yml
